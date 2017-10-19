@@ -4,12 +4,20 @@ import {
 	View,
 	Button
 } from 'react-native';
-import {Stack} from './components/Route';
+import {Stack} from './route/Route';
+import allReducers from './reducers/MainReducer';
+
+import {Provider} from 'react-redux';
+import {createStore} from 'redux';
+
+const store = createStore(allReducers)
 
 export default class App extends Component{
 	render(){
 		return (
-			<Stack/>
+			<Provider store={store}>
+				<Stack/>
+			</Provider>
 		);
 	}
 }
