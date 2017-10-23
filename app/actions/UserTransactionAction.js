@@ -1,3 +1,4 @@
+//The Action Creator
 export const doSomething = (type, data) => {
   if (type == 'EDIT'){
     return {

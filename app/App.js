@@ -10,6 +10,7 @@ import allReducers from './reducers/MainReducer';
 import {Provider} from 'react-redux';
 import {createStore} from 'redux';
 
+//create Store
 const store = createStore(allReducers)
 
 export default class App extends Component{

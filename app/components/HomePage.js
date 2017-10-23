@@ -1,3 +1,4 @@
+//Its a component
 import React, {Component} from 'react';
 import {View,	Button,	Text,	FlatList,	StyleSheet,	TouchableOpacity, Image} from 'react-native';
 import {connect} from 'react-redux';

@@ -1,3 +1,4 @@
+//Root reducer
 import {combineReducers} from 'redux';
 import UserListReducer from './UserListReducer';
 import UserTransactionReducer from './UserTransactionReducer';

@@ -1,3 +1,4 @@
+//Its a component
 import React, {Component} from 'react';
 import {View, Button,	Text,	FlatList,	TextInput,	StyleSheet} from 'react-native';
 import {bindActionCreators} from 'redux';
